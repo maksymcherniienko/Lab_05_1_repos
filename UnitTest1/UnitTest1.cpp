@@ -19,7 +19,7 @@ namespace UnitTest1
 
 			result = (a * a) + (b * b) - (c * c);
 			double ExpectedValue = g(a, b, c);
-			Assert::AreEqual(result, ExpectedValue, 18);
+			Assert::AreEqual(result, ExpectedValue, 0.0001);
 
 		}
 	};
